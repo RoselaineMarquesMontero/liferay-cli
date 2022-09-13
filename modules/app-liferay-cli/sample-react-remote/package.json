@@ -1,0 +1,13 @@
+{
+  "name": "sample-react-remote",
+  "version": "1.0.0",
+  "description": "Sample React Remote",
+  "dependencies": {
+    "@liferay/portal-7.4": "*"
+  },
+  "scripts": {
+    "build": "liferay build",
+    "clean": "liferay clean",
+    "start": "liferay start"
+  }
+}

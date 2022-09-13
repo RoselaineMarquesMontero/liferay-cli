@@ -1,0 +1,21 @@
+{
+  "name": "sample-react-with-bootstrap",
+  "version": "1.0.0",
+  "description": "Sample React With Bootstrap",
+  "dependencies": {
+    "@liferay/portal-7.4": "*",
+    "react-bootstrap": "1.6.4"
+  },
+  "portlet": {
+    "com.liferay.portlet.display-category": "category.sample",
+    "com.liferay.portlet.instanceable": true,
+    "javax.portlet.name": "samplereactwithbootstrap",
+    "javax.portlet.security-role-ref": "power-user,user",
+    "javax.portlet.resource-bundle": "content.Language"
+  },
+  "scripts": {
+    "build": "liferay build",
+    "clean": "liferay clean",
+    "deploy": "liferay deploy"
+  }
+}

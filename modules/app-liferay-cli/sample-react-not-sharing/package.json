@@ -1,0 +1,27 @@
+{
+  "name": "sample-react-not-sharing",
+  "version": "1.0.0",
+  "description": "Sample React Not Sharing",
+  "dependencies": {
+    "@liferay/portal-agnostic": "*",
+    "@clayui/charts": "3.56.0",
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
+  },
+  "portlet": {
+    "com.liferay.portlet.display-category": "category.sample",
+    "com.liferay.portlet.header-portlet-css": "/css/styles.css",
+    "com.liferay.portlet.instanceable": true,
+    "javax.portlet.name": "samplereactnotsharing",
+    "javax.portlet.security-role-ref": "power-user,user",
+    "javax.portlet.resource-bundle": "content.Language"
+  },
+  "scripts": {
+    "build": "liferay build",
+    "clean": "liferay clean",
+    "deploy": "liferay deploy"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "7.18.6"
+  }
+}

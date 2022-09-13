@@ -1,0 +1,22 @@
+{
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "modules/app-liferay-cli/sample-vue-not-sharing",
+            "modules/app-liferay-cli/sample-react-not-sharing",
+            "modules/app-liferay-cli/sample-angular-not-sharing",
+            "modules/app-liferay-cli/sample-react-with-mui",
+            "modules/app-liferay-cli/sample-angular",
+            "modules/app-liferay-cli/sample-plain-javascript-not-sharing",
+            "modules/app-liferay-cli/sample-vue",
+            "modules/app-liferay-cli/sample-react-with-bootstrap",
+            "modules/app-liferay-cli/sample-react-remote",
+            "modules/app-liferay-cli/sample-react-with-styled-component",
+            "modules/app-liferay-cli/sample-react-remote-app-not-sharing",
+            "modules/app-liferay-cli/sample-plain-javascript",
+            "modules/app-liferay-cli/sample-react",
+            "modules/sample-react-tech-talk-2",
+            "modules/sample-react-tech-talk"
+        ]
+    }
+}
